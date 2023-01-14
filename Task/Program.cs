@@ -1,7 +1,7 @@
 ﻿// Решение
 
 Console.WriteLine("Введите цифры или слова через пробел: ");
-string inputText = Console.ReadLine(); 
+string inputText = (Console.ReadLine()!); 
 string[] stringArr1 = inputText.Split(' ');
 string[] stringArr2 = new string[stringArr1.Length];
 
